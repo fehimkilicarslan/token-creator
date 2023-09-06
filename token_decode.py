@@ -4,9 +4,9 @@ import pyperclip
 
 def main():
     try:
-        key = input("input your secret key:\n")
+        key = input("input your secret key:\n>>> ")
 
-        token = input("input your token:\n")
+        token = input("input your token:\n>>> ")
 
         decoded = jwt.decode(token, key, algorithms="HS256")
 

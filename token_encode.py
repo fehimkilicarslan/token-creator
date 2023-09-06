@@ -4,9 +4,9 @@ import pyperclip
 
 def main():
     try:
-        key = input("input your secret key:\n")
+        key = input("input your secret key:\n>>> ")
 
-        passwd = input("input your password:\n")
+        passwd = input("input your password:\n>>> ")
 
         payload = {'pwd': passwd}
 
